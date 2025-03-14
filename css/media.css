@@ -1,0 +1,462 @@
+@media screen and (max-width: 1200px) {
+    .nav_link {
+        font-size: 15px !important;
+    }
+    .phone_number {
+        font-size: 20px !important;
+    }
+    .whatsapp_svg {
+        width: 32px;
+    }
+    .telegram_svg {
+        width: 32px;
+    }
+    .nav_box {
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header_box {
+        padding: 15px;
+        gap: 30px;
+    }
+    .burger_box > .burger {
+        font-size: 8px;
+    }
+    .header.Active {
+        transition: 0.3s;
+        height: 100vh;
+    }
+    header {
+        transition: 0.3s;
+        position: fixed;
+        overflow: hidden;
+        width: 100%;
+        height: 75px;
+        border-radius: 0;
+        z-index: 99;
+    }
+    .mobile_contacts_box {
+        display: flex;
+    }
+    .logo_box {
+        width: 100%;
+        flex-grow: 1;
+    }
+    .logo_inner {
+        flex-grow: 1;
+    }
+    .logo_svg {
+        width: 200px;
+    }
+    .nav_box {
+        width: 100%;
+        flex-direction: column;
+    }
+    .contacts_box {
+        display: none;
+    }
+    .burger_box {
+        display: flex;
+    }
+    main {
+        padding-top: 100px;
+    }
+    .our-advantages_b {
+        gap: 10px;
+    }
+    .clients-review-v_block {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .star-g-1_svg {
+        position: absolute;
+        top: 70%;
+        left: -3%;
+    }
+    .star-g-2_svg {
+        position: absolute;
+        top: 20%;
+        right: -3%;
+    }
+    .l-generation_info {
+        gap: 4vw;
+    }
+    .mobile_contacts_box {
+        display: none;
+    }
+    .contacts_box {
+        display: flex;
+    }
+    .l-generation_col {
+        padding: 10px;
+        width: 100%;
+    }
+    .l-generation_info_b {
+        flex-wrap: nowrap;
+        max-width: 60%;
+    }
+    .l-g-f-b_pg {
+        font-size: 2.7vw;
+    }
+    .l-g-f-b_text {
+        font-size: 5.2vw;
+        line-height: 5.2vw;
+    }
+    .choose-lead_button {
+        width: 100%;
+        height: auto;
+        font-size: 2.2vw;
+        padding: 20px 60px;
+    }
+    .woman-w-l_png {
+        width: 100%;
+    }
+    .leads_col {
+        width: 25%;
+        padding: 5px;
+    }
+    .leads_block {
+        border-radius: 10px;
+    }
+    .leads-inner_text {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .pay-f-r_text {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .pay-f-r_pg {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+    .our-advantages_inner {
+        gap: 1vw;
+    }
+    .our-advantages_block {
+        flex-wrap: wrap;
+        flex-direction: column;
+        overflow: hidden;
+        border-radius: 3vw;
+    }
+    .leads-no-limit_text {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .our-advantages_block > .card_png {
+        align-self: end;
+        width: 30vw;
+        transform: translate(0, 15px);
+    }
+    .our-advantages_block > .bg_png {
+        width: 30vw;
+    }
+    .price-technology_text {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .extra-charge_col {
+        padding: 3px;
+    }
+    .extra-charge_block {
+        border-radius: 20px;
+        min-height: 35vw;
+        padding: 3vw;
+    }
+    .extra-charge_title {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .extra-charge_text {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .extra-charge_price {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .extra-charge_price > b {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .extra-charge_block > img {
+        top: 15%;
+    }
+    .extra-charge_button {
+        font-size: 2vw;
+        line-height: 3vw;
+        border-radius: 5px;
+    }
+    .extra-charge_inner {
+        gap: 3vw;
+    }
+    .card-buy_button {
+        font-size: 2vw;
+        padding: 2vw 1vw;
+        border-radius: 5px;
+    }
+    .companies_block {
+        border-radius: 10px;
+    }
+    .clients-bought_title {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+        max-width: 550px;
+    }
+    .clients-review_block {
+        border-radius: 10px;
+    }
+    .clients-review_title {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .clients-review-v_box {
+        padding: 0 15px;
+    }
+    .technology_pg {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .technology_title {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .technology_image > img:first-child {
+        width: 100%;
+    }
+    .technology_inner > img {
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .l-generation_info_b {
+        max-width: 80%;
+    }
+    .l-g-f-b_pg {
+        font-size: 3.5vw;
+    }
+    .l-g-f-b_text {
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+    .choose-lead_button {
+        font-size: 3vw;
+    }
+    .leads_col {
+        width: 50%;
+    }
+    .leads-inner_text {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .our-advantages_col {
+        width: 100%;
+    }
+    .our-advantages_inner {
+        padding: 3vw;
+    }
+    .pay-f-r_text {
+        font-size: 3.2vw;
+        line-height: 3.2vw;
+    }
+    .pay-f-r_pg {
+        font-size: 2vw;
+        line-height: 3.5vw;
+    }
+    .our-advantages_block {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .leads-no-limit_text {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+    .price_col {
+        width: 50%;
+    }
+    .price-card_text {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .price-card-pg {
+        font-size: 1.8vw;
+        line-height: 1.8vw;
+    }
+    .price-op {
+        font-size: 1.8vw;
+        line-height: 1.8vw;
+    }
+    .card-buy_button {
+        font-size: 1.8vw;
+    }
+    .price-technology_text {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+    .price-technology_pg {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .extra-charge_col {
+        width: 100%;
+    }
+    .extra-charge_block > img {
+        width: 5vw;
+    }
+    .extra-charge_title {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+    .companies_col {
+        width: 50%;
+        padding: 2px;
+    }
+    .companies_block > img {
+        width: 20vw;
+        height: auto;
+    }
+    .clients-bought_title {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+        max-width: 450px;
+        padding: 1vw 2vw;
+    }
+    .clients-bought_pg {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .clients-review_col {
+        width: 50%;
+    }
+    .clients-review_description {
+        display: flex;
+        flex-grow: 1;
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .clients-review_value {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .clients-review_categories {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+    .clients-review_title {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+    .clients-review_pg {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .clients-review-v_col {
+        width: 50%;
+        gap: 2vw;
+    }
+    .clients-review-v_block {
+        min-height: 20vw;
+    }
+    .clients-review-v_title {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .clients-review-v_block > img {
+        width: 4vw;
+    }
+    .technology_col {
+        width: 100%;
+    }
+    .technology_box {
+        padding: 0 10px;
+    }
+    .technology_pg {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .technology_title {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
+    }
+    .technology_inner > img {
+        width: 6vw;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .price_col {
+        width: 100%;
+    }
+    .price_block {
+        gap: 3vw;
+        padding: 3vw;
+        border-radius: 4vw;
+    }
+    .card-buy_button {
+        padding: 4vw 1vw;
+        font-size: 3vw;
+        border-radius: 5px;
+    }
+    .price-card-opportunities_b {
+        gap: 3vw;
+    }
+    .price-card_text {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .price-card-pg {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .price-op {
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    .price-type_span {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .extra-charge_button {
+        font-size: 3vw;
+        line-height: 3vw;
+        padding: 2vw;
+    }
+    .extra-charge_block {
+        min-height: 30vw;
+    }
+    .clients-review_col {
+        width: 100%;
+    }
+    .clients-review_stars > img {
+        width: 3.5vw;
+    }
+    .clients-review_value {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .clients-review_description {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .clients-review_categories {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    .clients-review_block {
+        padding: 3vw;
+    }
+    .clients-review-v_col {
+        width: 100%;
+    }
+    .clients-review-v_block {
+        min-height: 40vw;
+    }
+    .clients-review-v_block > img {
+        width: 7vw;
+    }
+}
