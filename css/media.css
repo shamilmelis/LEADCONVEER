@@ -61,7 +61,7 @@
         display: flex;
     }
     main {
-        padding-top: 100px;
+        padding-top: 10%;
     }
     .our-advantages_b {
         gap: 10px;
@@ -69,9 +69,15 @@
     .clients-review-v_block {
         border-radius: 10px;
     }
+    .promote_box {
+        border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .l-generation_box {
+        padding: 5px 10px;
+    }
     .star-g-1_svg {
         position: absolute;
         top: 70%;
@@ -231,6 +237,32 @@
     .technology_inner > img {
         width: 5vw;
     }
+    .promote_title {
+        font-size: 3.5vw;
+        line-height: 3.5vw;
+    }
+    .promote-reg_button {
+        font-size: 2vw;
+        line-height: 3vw;
+        border-radius: 5px;
+    }
+    .promote-reg_button {
+        font-size: 2vw;
+        line-height: 3vw;
+        border-radius: 5px;
+    }
+    .promote_container {
+        padding: 0;
+    }
+    .promote_box {
+        border-radius: 0;
+    }
+    .promote_col_7 {
+        padding: 0;
+    }
+    .promote_col_5 {
+        padding: 0 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -385,6 +417,25 @@
     }
     .technology_inner > img {
         width: 6vw;
+    }
+    .promote_col_7 {
+        width: 100%;
+    }
+    .promote_col_5 {
+        width: 100%;
+    }
+    .promote_image > img:first-child {
+        width: 100%;
+    }
+    .promote_image > img:nth-child(2) {
+        width: 10vw;
+    }
+    .promote_box {
+        gap: 3vw;
+    }
+    .promote_title {
+        font-size: 4.5vw;
+        line-height: 4.5vw;
     }
 }
 
